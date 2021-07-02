@@ -27,6 +27,14 @@
         <junit.platform.version>1.8.0-M1</junit.platform.version>
         <powermock.version>2.0.9</powermock.version>
     </properties>
+         
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/swickramage/test-repository</url>
+    </repository>
+  </distributionManagement>
 
     <profiles>
         <profile>
